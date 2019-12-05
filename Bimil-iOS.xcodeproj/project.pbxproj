@@ -20,6 +20,7 @@
 		F255485E2399964200C30FF6 /* Bimil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255485D2399964200C30FF6 /* Bimil.swift */; };
 		F25548612399988500C30FF6 /* BimilRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25548602399988500C30FF6 /* BimilRow.swift */; };
 		F2554863239998B100C30FF6 /* BimilDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2554862239998B100C30FF6 /* BimilDetail.swift */; };
+		F25548652399B78000C30FF6 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25548642399B78000C30FF6 /* TagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F255485D2399964200C30FF6 /* Bimil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bimil.swift; sourceTree = "<group>"; };
 		F25548602399988500C30FF6 /* BimilRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimilRow.swift; sourceTree = "<group>"; };
 		F2554862239998B100C30FF6 /* BimilDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimilDetail.swift; sourceTree = "<group>"; };
+		F25548642399B78000C30FF6 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				F25548602399988500C30FF6 /* BimilRow.swift */,
+				F25548642399B78000C30FF6 /* TagView.swift */,
 			);
 			path = SupportingViews;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				C95A775123998AA100F7F538 /* BimilListView.swift in Sources */,
 				F255485C239995EB00C30FF6 /* Data.swift in Sources */,
 				F2554863239998B100C30FF6 /* BimilDetail.swift in Sources */,
+				F25548652399B78000C30FF6 /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,14 +484,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bimil-iOS/Preview Content\"";
-				DEVELOPMENT_TEAM = V884P76A43;
+				DEVELOPMENT_TEAM = V6FHC84522;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Bimil-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS-ea";
 				PRODUCT_NAME = "Bimil-iOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,14 +504,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bimil-iOS/Preview Content\"";
-				DEVELOPMENT_TEAM = V884P76A43;
+				DEVELOPMENT_TEAM = V6FHC84522;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Bimil-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS-ea";
 				PRODUCT_NAME = "Bimil-iOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -15,5 +15,6 @@ struct Bimil: Hashable, Codable, Identifiable {
     var typeNumber: Bool
     var typeCapital: Bool
     var typeSpecialCharacter: Bool
+    var webAddress: String
     var note: String
 }

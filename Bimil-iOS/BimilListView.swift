@@ -11,9 +11,22 @@ import SwiftUI
 struct BimilListView: View {
     var body: some View {
         NavigationView {
-            List(tempData) { data in
-                NavigationLink(destination: BimilDetail()) {
-                    BimilRow(bimil: data)
+            VStack {
+                List(tempData) { data in
+                    NavigationLink(destination: BimilDetail()) {
+                        BimilRow(bimil: data)
+                    }
+                }
+                Spacer()
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        // Button Action
+                    }, label: {
+                        Text("+")
+                            .font(.system(.largeTitle))
+                            .frame(width: 56, height: 50)
+                    })
                 }
             }
         .navigationBarTitle(Text("Bimils"))
