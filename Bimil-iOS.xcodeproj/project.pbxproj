@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95A774D23998AA100F7F538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A774C23998AA100F7F538 /* AppDelegate.swift */; };
+		C95A774F23998AA100F7F538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A774E23998AA100F7F538 /* SceneDelegate.swift */; };
+		C95A775123998AA100F7F538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A775023998AA100F7F538 /* ContentView.swift */; };
+		C95A775323998AA400F7F538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95A775223998AA400F7F538 /* Assets.xcassets */; };
+		C95A775623998AA400F7F538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95A775523998AA400F7F538 /* Preview Assets.xcassets */; };
+		C95A775923998AA400F7F538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95A775723998AA400F7F538 /* LaunchScreen.storyboard */; };
+		C95A776423998AA400F7F538 /* Bimil_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A776323998AA400F7F538 /* Bimil_iOSTests.swift */; };
+		C95A776F23998AA400F7F538 /* Bimil_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A776E23998AA400F7F538 /* Bimil_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C95A776023998AA400F7F538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95A774123998AA100F7F538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95A774823998AA100F7F538;
+			remoteInfo = "Bimil-iOS";
+		};
+		C95A776B23998AA400F7F538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C95A774123998AA100F7F538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95A774823998AA100F7F538;
+			remoteInfo = "Bimil-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C95A774923998AA100F7F538 /* Bimil-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bimil-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95A774C23998AA100F7F538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C95A774E23998AA100F7F538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C95A775023998AA100F7F538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C95A775223998AA400F7F538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95A775523998AA400F7F538 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C95A775823998AA400F7F538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C95A775A23998AA400F7F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95A775F23998AA400F7F538 /* Bimil-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bimil-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95A776323998AA400F7F538 /* Bimil_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bimil_iOSTests.swift; sourceTree = "<group>"; };
+		C95A776523998AA400F7F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95A776A23998AA400F7F538 /* Bimil-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bimil-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95A776E23998AA400F7F538 /* Bimil_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bimil_iOSUITests.swift; sourceTree = "<group>"; };
+		C95A777023998AA400F7F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95A774623998AA100F7F538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95A775C23998AA400F7F538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95A776723998AA400F7F538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95A774023998AA100F7F538 = {
+			isa = PBXGroup;
+			children = (
+				C95A774B23998AA100F7F538 /* Bimil-iOS */,
+				C95A776223998AA400F7F538 /* Bimil-iOSTests */,
+				C95A776D23998AA400F7F538 /* Bimil-iOSUITests */,
+				C95A774A23998AA100F7F538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95A774A23998AA100F7F538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95A774923998AA100F7F538 /* Bimil-iOS.app */,
+				C95A775F23998AA400F7F538 /* Bimil-iOSTests.xctest */,
+				C95A776A23998AA400F7F538 /* Bimil-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C95A774B23998AA100F7F538 /* Bimil-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C95A774C23998AA100F7F538 /* AppDelegate.swift */,
+				C95A774E23998AA100F7F538 /* SceneDelegate.swift */,
+				C95A775023998AA100F7F538 /* ContentView.swift */,
+				C95A775223998AA400F7F538 /* Assets.xcassets */,
+				C95A775723998AA400F7F538 /* LaunchScreen.storyboard */,
+				C95A775A23998AA400F7F538 /* Info.plist */,
+				C95A775423998AA400F7F538 /* Preview Content */,
+			);
+			path = "Bimil-iOS";
+			sourceTree = "<group>";
+		};
+		C95A775423998AA400F7F538 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C95A775523998AA400F7F538 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C95A776223998AA400F7F538 /* Bimil-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C95A776323998AA400F7F538 /* Bimil_iOSTests.swift */,
+				C95A776523998AA400F7F538 /* Info.plist */,
+			);
+			path = "Bimil-iOSTests";
+			sourceTree = "<group>";
+		};
+		C95A776D23998AA400F7F538 /* Bimil-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C95A776E23998AA400F7F538 /* Bimil_iOSUITests.swift */,
+				C95A777023998AA400F7F538 /* Info.plist */,
+			);
+			path = "Bimil-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95A774823998AA100F7F538 /* Bimil-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95A777323998AA400F7F538 /* Build configuration list for PBXNativeTarget "Bimil-iOS" */;
+			buildPhases = (
+				C95A774523998AA100F7F538 /* Sources */,
+				C95A774623998AA100F7F538 /* Frameworks */,
+				C95A774723998AA100F7F538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bimil-iOS";
+			productName = "Bimil-iOS";
+			productReference = C95A774923998AA100F7F538 /* Bimil-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C95A775E23998AA400F7F538 /* Bimil-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95A777623998AA400F7F538 /* Build configuration list for PBXNativeTarget "Bimil-iOSTests" */;
+			buildPhases = (
+				C95A775B23998AA400F7F538 /* Sources */,
+				C95A775C23998AA400F7F538 /* Frameworks */,
+				C95A775D23998AA400F7F538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95A776123998AA400F7F538 /* PBXTargetDependency */,
+			);
+			name = "Bimil-iOSTests";
+			productName = "Bimil-iOSTests";
+			productReference = C95A775F23998AA400F7F538 /* Bimil-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C95A776923998AA400F7F538 /* Bimil-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95A777923998AA400F7F538 /* Build configuration list for PBXNativeTarget "Bimil-iOSUITests" */;
+			buildPhases = (
+				C95A776623998AA400F7F538 /* Sources */,
+				C95A776723998AA400F7F538 /* Frameworks */,
+				C95A776823998AA400F7F538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95A776C23998AA400F7F538 /* PBXTargetDependency */,
+			);
+			name = "Bimil-iOSUITests";
+			productName = "Bimil-iOSUITests";
+			productReference = C95A776A23998AA400F7F538 /* Bimil-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95A774123998AA100F7F538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = KarlsBubu;
+				TargetAttributes = {
+					C95A774823998AA100F7F538 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					C95A775E23998AA400F7F538 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C95A774823998AA100F7F538;
+					};
+					C95A776923998AA400F7F538 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = C95A774823998AA100F7F538;
+					};
+				};
+			};
+			buildConfigurationList = C95A774423998AA100F7F538 /* Build configuration list for PBXProject "Bimil-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95A774023998AA100F7F538;
+			productRefGroup = C95A774A23998AA100F7F538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95A774823998AA100F7F538 /* Bimil-iOS */,
+				C95A775E23998AA400F7F538 /* Bimil-iOSTests */,
+				C95A776923998AA400F7F538 /* Bimil-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95A774723998AA100F7F538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A775923998AA400F7F538 /* LaunchScreen.storyboard in Resources */,
+				C95A775623998AA400F7F538 /* Preview Assets.xcassets in Resources */,
+				C95A775323998AA400F7F538 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95A775D23998AA400F7F538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95A776823998AA400F7F538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95A774523998AA100F7F538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A774D23998AA100F7F538 /* AppDelegate.swift in Sources */,
+				C95A774F23998AA100F7F538 /* SceneDelegate.swift in Sources */,
+				C95A775123998AA100F7F538 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95A775B23998AA400F7F538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A776423998AA400F7F538 /* Bimil_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95A776623998AA400F7F538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95A776F23998AA400F7F538 /* Bimil_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C95A776123998AA400F7F538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95A774823998AA100F7F538 /* Bimil-iOS */;
+			targetProxy = C95A776023998AA400F7F538 /* PBXContainerItemProxy */;
+		};
+		C95A776C23998AA400F7F538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C95A774823998AA100F7F538 /* Bimil-iOS */;
+			targetProxy = C95A776B23998AA400F7F538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C95A775723998AA400F7F538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95A775823998AA400F7F538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95A777123998AA400F7F538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C95A777223998AA400F7F538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95A777423998AA400F7F538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bimil-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = V884P76A43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bimil-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95A777523998AA400F7F538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bimil-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = V884P76A43;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bimil-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C95A777723998AA400F7F538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V884P76A43;
+				INFOPLIST_FILE = "Bimil-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bimil-iOS.app/Bimil-iOS";
+			};
+			name = Debug;
+		};
+		C95A777823998AA400F7F538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V884P76A43;
+				INFOPLIST_FILE = "Bimil-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bimil-iOS.app/Bimil-iOS";
+			};
+			name = Release;
+		};
+		C95A777A23998AA400F7F538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V884P76A43;
+				INFOPLIST_FILE = "Bimil-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bimil-iOS";
+			};
+			name = Debug;
+		};
+		C95A777B23998AA400F7F538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V884P76A43;
+				INFOPLIST_FILE = "Bimil-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bimil-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95A774423998AA100F7F538 /* Build configuration list for PBXProject "Bimil-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A777123998AA400F7F538 /* Debug */,
+				C95A777223998AA400F7F538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95A777323998AA400F7F538 /* Build configuration list for PBXNativeTarget "Bimil-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A777423998AA400F7F538 /* Debug */,
+				C95A777523998AA400F7F538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95A777623998AA400F7F538 /* Build configuration list for PBXNativeTarget "Bimil-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A777723998AA400F7F538 /* Debug */,
+				C95A777823998AA400F7F538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95A777923998AA400F7F538 /* Build configuration list for PBXNativeTarget "Bimil-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95A777A23998AA400F7F538 /* Debug */,
+				C95A777B23998AA400F7F538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95A774123998AA100F7F538 /* Project object */;
+}
