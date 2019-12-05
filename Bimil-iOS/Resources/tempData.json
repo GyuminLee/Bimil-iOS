@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1001,
+        "name": "facebook",
+        "typeNumber": true,
+        "typeCapital": false,
+        "typeSpecialCharacter": true,
+        "webAddress": "www.facebook.com",
+        "note": ""
+    },
+    {
+        "id": 1002,
+        "name": "instagram",
+        "typeNumber": false,
+        "typeCapital": false,
+        "typeSpecialCharacter": true,
+        "webAddress": "www.instagram.com",
+        "note": ""
+    },
+    {
+        "id": 1003,
+        "name": "Naver",
+        "typeNumber": true,
+        "typeCapital": true,
+        "typeSpecialCharacter": true,
+        "webAddress": "www.naver.com",
+        "note": ""
+    }
+]

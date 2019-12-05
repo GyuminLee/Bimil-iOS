@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		C95A774D23998AA100F7F538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A774C23998AA100F7F538 /* AppDelegate.swift */; };
 		C95A774F23998AA100F7F538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A774E23998AA100F7F538 /* SceneDelegate.swift */; };
-		C95A775123998AA100F7F538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A775023998AA100F7F538 /* ContentView.swift */; };
+		C95A775123998AA100F7F538 /* BimilListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A775023998AA100F7F538 /* BimilListView.swift */; };
 		C95A775323998AA400F7F538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95A775223998AA400F7F538 /* Assets.xcassets */; };
 		C95A775623998AA400F7F538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95A775523998AA400F7F538 /* Preview Assets.xcassets */; };
 		C95A775923998AA400F7F538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95A775723998AA400F7F538 /* LaunchScreen.storyboard */; };
 		C95A776423998AA400F7F538 /* Bimil_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A776323998AA400F7F538 /* Bimil_iOSTests.swift */; };
 		C95A776F23998AA400F7F538 /* Bimil_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A776E23998AA400F7F538 /* Bimil_iOSUITests.swift */; };
+		F25548562399930F00C30FF6 /* tempData.json in Resources */ = {isa = PBXBuildFile; fileRef = F25548552399930F00C30FF6 /* tempData.json */; };
+		F255485C239995EB00C30FF6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255485B239995EB00C30FF6 /* Data.swift */; };
+		F255485E2399964200C30FF6 /* Bimil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255485D2399964200C30FF6 /* Bimil.swift */; };
+		F25548612399988500C30FF6 /* BimilRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25548602399988500C30FF6 /* BimilRow.swift */; };
+		F2554863239998B100C30FF6 /* BimilDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2554862239998B100C30FF6 /* BimilDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		C95A774923998AA100F7F538 /* Bimil-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bimil-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A774C23998AA100F7F538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95A774E23998AA100F7F538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C95A775023998AA100F7F538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C95A775023998AA100F7F538 /* BimilListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimilListView.swift; sourceTree = "<group>"; };
 		C95A775223998AA400F7F538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C95A775523998AA400F7F538 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C95A775823998AA400F7F538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		C95A776A23998AA400F7F538 /* Bimil-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bimil-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A776E23998AA400F7F538 /* Bimil_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bimil_iOSUITests.swift; sourceTree = "<group>"; };
 		C95A777023998AA400F7F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25548552399930F00C30FF6 /* tempData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tempData.json; sourceTree = "<group>"; };
+		F255485B239995EB00C30FF6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F255485D2399964200C30FF6 /* Bimil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bimil.swift; sourceTree = "<group>"; };
+		F25548602399988500C30FF6 /* BimilRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimilRow.swift; sourceTree = "<group>"; };
+		F2554862239998B100C30FF6 /* BimilDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimilDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,13 @@
 		C95A774B23998AA100F7F538 /* Bimil-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F255485F2399986200C30FF6 /* SupportingViews */,
+				F255485A239995D200C30FF6 /* Models */,
+				F2554859239994A700C30FF6 /* Resources */,
 				C95A774C23998AA100F7F538 /* AppDelegate.swift */,
 				C95A774E23998AA100F7F538 /* SceneDelegate.swift */,
-				C95A775023998AA100F7F538 /* ContentView.swift */,
+				C95A775023998AA100F7F538 /* BimilListView.swift */,
+				F2554862239998B100C30FF6 /* BimilDetail.swift */,
 				C95A775223998AA400F7F538 /* Assets.xcassets */,
 				C95A775723998AA400F7F538 /* LaunchScreen.storyboard */,
 				C95A775A23998AA400F7F538 /* Info.plist */,
@@ -134,6 +148,31 @@
 				C95A777023998AA400F7F538 /* Info.plist */,
 			);
 			path = "Bimil-iOSUITests";
+			sourceTree = "<group>";
+		};
+		F2554859239994A700C30FF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F25548552399930F00C30FF6 /* tempData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F255485A239995D200C30FF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F255485B239995EB00C30FF6 /* Data.swift */,
+				F255485D2399964200C30FF6 /* Bimil.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F255485F2399986200C30FF6 /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				F25548602399988500C30FF6 /* BimilRow.swift */,
+			);
+			path = SupportingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95A775923998AA400F7F538 /* LaunchScreen.storyboard in Resources */,
+				F25548562399930F00C30FF6 /* tempData.json in Resources */,
 				C95A775623998AA400F7F538 /* Preview Assets.xcassets in Resources */,
 				C95A775323998AA400F7F538 /* Assets.xcassets in Resources */,
 			);
@@ -269,7 +309,11 @@
 			files = (
 				C95A774D23998AA100F7F538 /* AppDelegate.swift in Sources */,
 				C95A774F23998AA100F7F538 /* SceneDelegate.swift in Sources */,
-				C95A775123998AA100F7F538 /* ContentView.swift in Sources */,
+				F25548612399988500C30FF6 /* BimilRow.swift in Sources */,
+				F255485E2399964200C30FF6 /* Bimil.swift in Sources */,
+				C95A775123998AA100F7F538 /* BimilListView.swift in Sources */,
+				F255485C239995EB00C30FF6 /* Data.swift in Sources */,
+				F2554863239998B100C30FF6 /* BimilDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bimil-iOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +508,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kalsbubu.Bimil-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bimil-iOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
